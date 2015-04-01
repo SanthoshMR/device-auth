@@ -1,7 +1,10 @@
 {
   "name": "device-auth",
   "version": "0.0.14",
-  "author": "Santhosh Reddy <santhosh.mreddy@gmail.com>",
+  "author": {
+    "name": "Santhosh Reddy",
+    "email": "santhosh.mreddy@gmail.com"
+  },
   "description": "Device authentication and Json Web Tokens for Sails (based on Waterlock)",
   "homepage": "",
   "contributors": [
@@ -10,15 +13,12 @@
       "email": "santhosh.mreddy@gmail.com"
     }
   ],
-  "repository":{
+  "repository": {
     "type": "git",
     "url": ""
   },
-  "bugs": {
-    "url": ""
-  },
-  "scripts":{
-    "test":"make test"
+  "scripts": {
+    "test": "make test"
   },
   "keywords": [
     "waterlock",
@@ -28,7 +28,8 @@
     "json web tokens",
     "jwt"
   ],
-  "dependencies" : {
+  "dependencies": {
+    "bcrypt": "~0.8.1",
     "moment": "~2.8.1",
     "commander": "~2.5.1",
     "lodash": "2.4.1",
@@ -36,7 +37,7 @@
     "node-uuid": "~1.4.1",
     "winston": "~0.8.3"
   },
-  "devDependencies":{
+  "devDependencies": {
     "mocha": "*",
     "should": "*",
     "proxyquire": "*",
@@ -49,5 +50,12 @@
   "license": "MIT",
   "engines": {
     "node": ">=0.6"
-  }
+  },
+  "gitHead": "3ac8e27eb45e5355b4cd402ad8708d9e23e55d1b",
+  "readme": "device-auth is a SailsJS authentication system based on Waterlock. Since Waterlock is mainly targeted towards users, this repo uses it authenticate devices by changing its models to point to devices.\r\n",
+  "readmeFilename": "README.md",
+  "_id": "device-auth@0.0.14",
+  "_shasum": "b8e4d1a6137e8313bbde4bb209ae86da729fddee",
+  "_from": "..\\..\\..\\..\\..\\Users\\dev14\\AppData\\Local\\Temp\\npm-107080-5563f9dd\\git-cache-db9175bfe677\\3ac8e27eb45e5355b4cd402ad8708d9e23e55d1b",
+  "_resolved": "git+https://github.com/SanthoshMR/device-auth.git#3ac8e27eb45e5355b4cd402ad8708d9e23e55d1b"
 }
