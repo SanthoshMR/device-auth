@@ -1,0 +1,53 @@
+{
+  "name": "device-auth",
+  "version": "0.0.14",
+  "author": "Santhosh Reddy <santhosh.mreddy@gmail.com>",
+  "description": "Device authentication and Json Web Tokens for Sails (based on Waterlock)",
+  "homepage": "",
+  "contributors": [
+    {
+      "name": "Santhosh Reddy",
+      "email": "santhosh.mreddy@gmail.com"
+    }
+  ],
+  "repository":{
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "scripts":{
+    "test":"make test"
+  },
+  "keywords": [
+    "waterlock",
+    "device",
+    "sails",
+    "authentication",
+    "json web tokens",
+    "jwt"
+  ],
+  "dependencies" : {
+    "moment": "~2.8.1",
+    "commander": "~2.5.1",
+    "lodash": "2.4.1",
+    "jwt-simple": "~0.2.0",
+    "node-uuid": "~1.4.1",
+    "winston": "~0.8.3"
+  },
+  "devDependencies":{
+    "mocha": "*",
+    "should": "*",
+    "proxyquire": "*",
+    "coveralls": "*",
+    "istanbul": "*",
+    "sails": "*",
+    "jshint": "*"
+  },
+  "preferGlobal": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
